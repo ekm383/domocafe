@@ -11,9 +11,6 @@ const IndexHeader = styled.header`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media (max-height: 768px) {
-    background: url(${props => props.img}) center/cover fixed no-repeat;
-  }
 `
 
 export default HeaderIndex
