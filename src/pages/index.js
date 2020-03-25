@@ -28,7 +28,7 @@ const IndexPage = () => (
       <Section style={{ width: "100vw", alignItems: "center" }}>
         <Banner
           titleSmall="DOMO CAFE"
-          subtitle="Domo Cafe is located on Maunakea Street in Downtown Honolulu. We are open daily serving the best ahi poke and sushi."
+          subtitle="Domo Cafe is located at Honolulu. We aim at serving the best sushi at the affordable price. Our team go to fish auction to get the best quality ahi and it's the freshest you can get !"
         >
           <AniLink fade to="#menu">
             <Button>ORDER TAKEOUT</Button>

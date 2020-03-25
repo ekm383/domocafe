@@ -28,24 +28,40 @@ class Footer extends Component {
       <FooterWrapper>
         <div className="box contact">
           <h4>Contact Information</h4>
-          <p>
-            1016 Maunakea St,
-            <br />
-            Honolulu, HI 96817
-          </p>
-          <p className="phone">(808) 587-8338</p>
-          <p>Mon - Sat 9:00am - 6:00pm</p>
-          <p>Sun 10:00am - 3:00pm</p>
-          {this.state.icons.map(item => (
-            <a
-              href={item.path}
-              key={item.id}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {item.icon}
-            </a>
-          ))}
+          <div className="locationContainer">
+            <div className="locationBox">
+              <h6>Downtown</h6>
+              <p>
+                1016 Maunakea St,
+                <br />
+                Honolulu, HI 96817
+              </p>
+              <p className="phone">(808) 587-8338</p>
+            </div>
+            <div className="locationBox">
+              <h6>Kapiolani</h6>
+              <p>
+                1724 Kapiolani Blvd,
+                <br />
+                Honolulu, HI 96814
+              </p>
+              <p className="phone">(808) 888-0288</p>
+            </div>
+          </div>
+          <div style={{ marginTop: "10px" }}>
+            <p>Mon - Sat 9:00am - 6:00pm</p>
+            <p>Sun 10:00am - 3:00pm</p>
+            {this.state.icons.map(item => (
+              <a
+                href={item.path}
+                key={item.id}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {item.icon}
+              </a>
+            ))}
+          </div>
         </div>
         <div className="box map">
           <img src={map} alt="map" width="100%" height="100%" />
@@ -62,6 +78,15 @@ const FooterWrapper = styled.div`
   height: 100%;
   background: var(--gray);
   color: var(--white);
+  .locationContainer {
+    display: flex;
+  }
+  .locationBox {
+    flex-basis: 45%;
+  }
+  h4 {
+    margin-bottom: 10px;
+  }
   p,
   .phone {
     font-size: 0.8rem;
