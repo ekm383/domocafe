@@ -36,7 +36,7 @@ class Footer extends Component {
                 <br />
                 Honolulu, HI 96817
               </p>
-              <p className="phone">(808) 587-8338</p>
+              <p id="phone">(808) 587-8338</p>
             </div>
             <div className="locationBox">
               <h6>Kapiolani</h6>
@@ -45,7 +45,7 @@ class Footer extends Component {
                 <br />
                 Honolulu, HI 96814
               </p>
-              <p className="phone">(808) 888-0288</p>
+              <p id="phone">(808) 888-0288</p>
             </div>
           </div>
           <div style={{ marginTop: "10px" }}>
@@ -88,8 +88,8 @@ const FooterWrapper = styled.div`
     margin-bottom: 10px;
   }
   p,
-  .phone {
-    font-size: 0.8rem;
+  #phone {
+    font-size: 0.8rem !important;
   }
   .box {
     flex-basis: 46%;
