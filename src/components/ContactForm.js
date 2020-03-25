@@ -214,7 +214,7 @@ const FormWrapper = styled.div`
     resize: vertical;
   }
   @media (max-width: 768px) {
-    width: 95%;
+    width: 100%;
   }
 `
 
