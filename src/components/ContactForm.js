@@ -204,7 +204,6 @@ const FormWrapper = styled.div`
     width: auto;
     margin-right: 5px;
   }
-
   textarea {
     width: 100%;
     height: 200px;
@@ -213,6 +212,9 @@ const FormWrapper = styled.div`
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+  }
+  @media (max-width: 768px) {
+    width: 95%;
   }
 `
 
