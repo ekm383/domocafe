@@ -89,7 +89,8 @@ const FooterWrapper = styled.div`
   }
   p,
   #phone {
-    font-size: 0.8rem !important;
+    font-size: 12px !important;
+    line-height: 1.3rem;
   }
   .box {
     flex-basis: 46%;
