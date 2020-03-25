@@ -8,6 +8,7 @@ import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import ContactForm from "../components/ContactForm"
 import imgIndex from "../images/bg/domo-cafe-hawaii-restaurant.jpg"
+import Intro from "../components/Intro"
 
 const IndexPage = () => (
   <Layout>
@@ -36,10 +37,11 @@ const IndexPage = () => (
         </Banner>
       </Section>
     </HeaderIndex>
-    <Section id="menu" style={{ height: "50vh" }}>
-      <div>menu section</div>
+    <Section id="menu" style={{ marginTop: "2rem" }}>
+      <Intro heading="our menu" />
     </Section>
-    <Section id="information" style={{ height: "50vh" }}>
+    <Section id="information" style={{ marginTop: "2rem" }}>
+      <Intro heading="how can we help?" />
       <ContactForm />
     </Section>
   </Layout>

@@ -19,6 +19,7 @@ const IntroWrapper = styled.div`
     color: var(--mainBlue);
     line-height: 3.5rem;
     margin-bottom: 1rem;
+    font-size: 2rem;
   }
   @media (max-width: 768px) {
     flex-basis: 100%;
