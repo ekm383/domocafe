@@ -82,15 +82,15 @@ const FooterWrapper = styled.div`
     display: flex;
   }
   .locationBox {
-    flex-basis: 45%;
+    flex-basis: 46%;
   }
   h4 {
     margin-bottom: 10px;
   }
   p,
   #phone {
-    font-size: 1.2rem;
-    line-height: 1.8rem;
+    font-size: 0.9rem;
+    line-height: 1.4rem;
   }
   .box {
     flex-basis: 46%;
@@ -109,6 +109,10 @@ const FooterWrapper = styled.div`
   @media (max-width: 768px) {
     .locationContainer {
       flex-wrap: wrap;
+    }
+    #phone {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
     }
     .box {
       flex-basis: 100%;
