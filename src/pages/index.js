@@ -25,7 +25,7 @@ const IndexPage = () => (
         `Honolulu Sushi`,
       ]}
     />
-    <HeaderIndex img={imgIndex}>
+    <HeaderIndex>
       <Section style={{ width: "100vw", alignItems: "center" }}>
         <Banner
           titleSmall="DOMO CAFE"
