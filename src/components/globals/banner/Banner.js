@@ -15,16 +15,16 @@ const Banner = ({ style, title, titleSmall, subtitle, children }) => {
 }
 
 const BannerWrapper = styled.div`
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: 3rem;
+  margin: 0rem auto;
   color: var(--white);
   .box {
     flex-basis: 80%;
     text-align: center;
-    padding: 13rem 0rem;
+    padding: 10rem 0rem 10rem 0rem;
   }
   img {
     width: 100%;
@@ -40,6 +40,7 @@ const BannerWrapper = styled.div`
     text-transform: uppercase;
   }
   .titleSmall {
+    font-size: 6rem;
     line-height: 4rem;
   }
   .subtitle {
@@ -59,8 +60,8 @@ const BannerWrapper = styled.div`
       width: 90%;
     }
     .titleSmall {
-      font-size: 2rem;
-      line-height: 2rem;
+      font-size: 3rem;
+      line-height: 2.5rem;
     }
     .subtitle {
       font-size: 0.8rem;
