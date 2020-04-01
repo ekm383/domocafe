@@ -52,7 +52,7 @@ const ContactForm = () => {
 }
 
 const FormWrapper = styled.div`
-  width: 80%;
+  width: 100%;
   padding-bottom: 4rem;
   margin: 0px auto;
   #hidden {
@@ -212,9 +212,6 @@ const FormWrapper = styled.div`
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-  }
-  @media (max-width: 768px) {
-    width: 100%;
   }
 `
 

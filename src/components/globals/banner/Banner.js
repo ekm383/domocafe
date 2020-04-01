@@ -40,8 +40,9 @@ const BannerWrapper = styled.div`
     text-transform: uppercase;
   }
   .titleSmall {
-    font-size: 6rem;
+    font-size: 4rem;
     line-height: 4rem;
+    font-weight: bold;
   }
   .subtitle {
     font-size: 1rem;
@@ -54,7 +55,7 @@ const BannerWrapper = styled.div`
     margin: 0 auto;
     .box {
       flex-basis: 100%;
-      padding: 5rem 0rem;
+      padding: 5rem 0rem 3rem 0rem;
     }
     img {
       width: 90%;

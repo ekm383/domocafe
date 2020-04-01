@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-import map from "../../../images/bg/domo-cafe-hawaii-map.jpg"
 import { FaInstagram, FaFacebook, FaGoogle } from "react-icons/fa"
 
 class Footer extends Component {
@@ -26,45 +25,34 @@ class Footer extends Component {
   render() {
     return (
       <FooterWrapper>
-        <div className="box contact">
-          <h4>Contact Information</h4>
-          <div className="locationContainer">
-            <div className="locationBox">
-              <h6>Downtown</h6>
-              <p>
-                1016 Maunakea St,
-                <br />
-                Honolulu, HI 96817
-              </p>
-              <p id="phone">(808) 587-8338</p>
-            </div>
-            <div className="locationBox">
-              <h6>Kapiolani</h6>
-              <p>
-                1724 Kapiolani Blvd,
-                <br />
-                Honolulu, HI 96814
-              </p>
-              <p id="phone">(808) 888-0288</p>
-            </div>
-          </div>
-          <div style={{ marginTop: "10px" }}>
+        <h4>Contact Information</h4>
+        <div className="locationContainer">
+          <div className="locationBox">
+            <h6>Downtown</h6>
+            <p>1016 Maunakea St, Honolulu, HI 96817</p>
+            <p id="phone">(808) 587-8338</p>
             <p>Mon - Sat 9:00am - 6:00pm</p>
             <p>Sun 10:00am - 3:00pm</p>
-            {this.state.icons.map(item => (
-              <a
-                href={item.path}
-                key={item.id}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {item.icon}
-              </a>
-            ))}
+          </div>
+          <div className="locationBox">
+            <h6>Kapiolani</h6>
+            <p>1724 Kapiolani Blvd, Honolulu, HI 96814</p>
+            <p id="phone">(808) 888-0288</p>
+            <p>Mon - Sat 9:00am - 6:00pm</p>
+            <p>Sun 10:00am - 3:00pm</p>
           </div>
         </div>
-        <div className="box map">
-          <img src={map} alt="map" width="100%" height="100%" />
+        <div style={{ marginTop: "10px" }}>
+          {this.state.icons.map(item => (
+            <a
+              href={item.path}
+              key={item.id}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {item.icon}
+            </a>
+          ))}
         </div>
       </FooterWrapper>
     )
@@ -74,18 +62,28 @@ class Footer extends Component {
 const FooterWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   height: 100%;
+  width: 100%;
+  padding: 2rem 0rem;
   background: var(--gray);
   color: var(--white);
   .locationContainer {
+    width: 100%;
     display: flex;
   }
   .locationBox {
-    flex-basis: 46%;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0px auto;
   }
   h4 {
     margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  h6 {
+    font-size: 1rem;
   }
   p,
   #phone {
@@ -96,14 +94,10 @@ const FooterWrapper = styled.div`
     flex-basis: 46%;
     padding: 2rem;
   }
-  .map {
-    background: lightgray;
-    padding: 0;
-  }
   a {
     color: var(--white);
     font-size: 2rem;
-    line-height: 6rem;
+
     margin-right: 5px;
   }
   @media (max-width: 768px) {

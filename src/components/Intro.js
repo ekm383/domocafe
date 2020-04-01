@@ -16,7 +16,7 @@ const IntroWrapper = styled.div`
   flex-basis: 90%;
   margin-bottom: 1rem;
   h2 {
-    color: var(--mainBlue);
+    color: var(--mainColor);
     line-height: 3.5rem;
     margin-bottom: 1rem;
     font-size: 2rem;

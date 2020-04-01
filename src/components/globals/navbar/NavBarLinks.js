@@ -7,11 +7,21 @@ class NavBarLinks extends Component {
     links: [
       {
         id: 0,
-        path: "#menu",
-        text: "menu",
+        path: "/",
+        text: "home",
       },
       {
         id: 1,
+        path: "/downtown",
+        text: "downtown",
+      },
+      {
+        id: 2,
+        path: "/kapiolani",
+        text: "kapiolani",
+      },
+      {
+        id: 3,
         path: "#information",
         text: "information",
       },
@@ -53,7 +63,7 @@ const LinkWrapper = styled.ul`
       padding: 0.8rem 1.5rem;
     }
   }
-  height: ${props => (props.open ? "100px" : "0px")};
+  height: ${props => (props.open ? "200px" : "0px")};
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   @media (min-width: 768px) {
