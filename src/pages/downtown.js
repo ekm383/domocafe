@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
 import Section from "../components/globals/section/Section"
+import DowntownMenu from "../components/DowntownMenu"
 
 const Downtown = () => (
   <Layout>
@@ -25,7 +26,9 @@ const Downtown = () => (
         <Banner titleSmall="Downtown Menu"></Banner>
       </Section>
     </HeaderIndex>
-    <Section style={{ padding: "2rem 0rem" }}></Section>
+    <Section style={{ margin: "0rem auto", padding: "2rem 0rem" }}>
+      <DowntownMenu />
+    </Section>
   </Layout>
 )
 

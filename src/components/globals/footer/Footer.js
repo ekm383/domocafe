@@ -72,11 +72,12 @@ const FooterWrapper = styled.div`
   .locationContainer {
     width: 100%;
     display: flex;
+    justify-content: center;
   }
   .locationBox {
-    flex-basis: 100%;
+    flex-basis: 30%;
     text-align: center;
-    margin: 0px auto;
+    margin: 2rem 0rem;
   }
   h4 {
     margin-bottom: 10px;
