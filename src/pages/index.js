@@ -43,17 +43,15 @@ const IndexPage = () => (
         address="1016 Maunakea St,
         Honolulu, HI 96817"
         phone="(808) 587-8338"
-        hours1="Mon - Sat 9:00am - 6:00pm"
-        hours2="Sun 10:00am - 3:00pm"
+        hours1="Mon - Sun 10:30am - 9:00pm"
         link="/downtown"
       />
       <LocationBox
         name="Kapiolani"
-        address="1724 Kapiolani Blvd,
+        address="1726 Kapiolani Blvd 102,
         Honolulu, HI 96814"
         phone="(808) 888-0288"
-        hours1="Mon - Sat 9:00am - 6:00pm"
-        hours2="Sun 10:00am - 3:00pm"
+        hours1="Mon - Sun 10:30am - 9:00pm"
         link="/kapiolani"
       />
     </Section>

@@ -29,17 +29,20 @@ class Footer extends Component {
         <div className="locationContainer">
           <div className="locationBox">
             <h6>Downtown</h6>
-            <p>1016 Maunakea St, Honolulu, HI 96817</p>
+            <p>
+              1016 Maunakea St, <br />
+              Honolulu, HI 96817
+            </p>
             <p id="phone">(808) 587-8338</p>
-            <p>Mon - Sat 9:00am - 6:00pm</p>
-            <p>Sun 10:00am - 3:00pm</p>
+            <p>Mon - Sun 10:30am - 9:00pm</p>
           </div>
           <div className="locationBox">
             <h6>Kapiolani</h6>
-            <p>1724 Kapiolani Blvd, Honolulu, HI 96814</p>
+            <p>
+              1726 Kapiolani Blvd 102, <br /> Honolulu, HI 96814
+            </p>
             <p id="phone">(808) 888-0288</p>
-            <p>Mon - Sat 9:00am - 6:00pm</p>
-            <p>Sun 10:00am - 3:00pm</p>
+            <p>Mon - Sun 10:30am - 9:00pm</p>
           </div>
         </div>
         <div style={{ marginTop: "10px" }}>
