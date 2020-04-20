@@ -28,8 +28,8 @@ const IndexPage = () => (
     <HeaderIndex>
       <Section style={{ width: "100vw", alignItems: "center" }}>
         <Banner
-          titleSmall="DOMO CAFE"
-          subtitle="Domo Cafe is located at Honolulu. We aim at serving the best sushi at the affordable price. Our team go to fish auction to get the best quality ahi and it's the freshest you can get !"
+          titleSmall="Sushi • Poke • Sashimi"
+          subtitle="From the daily fish auction to your belly!"
         >
           <AniLink fade to="#locations">
             <Button>ORDER TAKEOUT</Button>
@@ -43,7 +43,8 @@ const IndexPage = () => (
         address="1016 Maunakea St,
         Honolulu, HI 96817"
         phone="(808) 587-8338"
-        hours1="Mon - Sun 10:30am - 9:00pm"
+        hours1="Mon - Sat 9:00am - 6:00pm"
+        hours2="Sun 10:00am - 3:00pm"
         link="/downtown"
       />
       <LocationBox
@@ -51,7 +52,7 @@ const IndexPage = () => (
         address="1726 Kapiolani Blvd 102,
         Honolulu, HI 96814"
         phone="(808) 888-0288"
-        hours1="Mon - Sun 10:30am - 9:00pm"
+        hours1="CLOSED"
         link="/kapiolani"
       />
     </Section>

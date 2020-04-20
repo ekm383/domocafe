@@ -23,7 +23,7 @@ const LocationBox = ({
           <p>{hours2}</p>
           <p>{hours3}</p>
           <AniLink fade to={link}>
-            <button className="menuButton">View Menu</button>
+            <button className="menuButton">Order</button>
           </AniLink>
         </div>
       </LocationWrapper>
