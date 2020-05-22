@@ -34,7 +34,8 @@ class Footer extends Component {
               Honolulu, HI 96817
             </p>
             <p id="phone">(808) 587-8338</p>
-            <p>Mon - Sun 10:30am - 9:00pm</p>
+            <p>Mon - Sat 9:00am - 6:00pm</p>
+            <p>Sun 10:00am - 3:00pm</p>
           </div>
           <div className="locationBox">
             <h6>Kapiolani</h6>
