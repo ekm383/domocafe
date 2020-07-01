@@ -1,10 +1,8 @@
 import React from "react"
 import Layout from "../components/layout"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 import SEO from "../components/seo"
 import HeaderIndex from "../components/globals/header/HeaderIndex"
 import Banner from "../components/globals/banner/Banner"
-import Button from "../components/globals/button/Button"
 import Section from "../components/globals/section/Section"
 import ContactForm from "../components/ContactForm"
 import LocationBox from "../components/LocationBox"
@@ -30,11 +28,7 @@ const IndexPage = () => (
         <Banner
           titleSmall="Sushi • Poke • Sashimi"
           subtitle="From the daily fish auction to your belly!"
-        >
-          <AniLink fade to="#locations">
-            <Button>ORDER TAKEOUT</Button>
-          </AniLink>
-        </Banner>
+        ></Banner>
       </Section>
     </HeaderIndex>
     <Section id="locations" style={{ marginTop: "2rem" }}>
@@ -45,7 +39,7 @@ const IndexPage = () => (
         phone="(808) 587-8338"
         hours1="Mon - Sat 9:00am - 6:00pm"
         hours2="Sun 10:00am - 3:00pm"
-        link="/downtown"
+        link="https://www.grindztogo.com/order/restaurant/domo-cafe-downtown-menu/13"
       />
       <LocationBox
         name="Kapiolani"

@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
 import Background from "../components/Background"
-import AniLink from "gatsby-plugin-transition-link"
 
 const LocationBox = ({
   name,
@@ -22,9 +21,9 @@ const LocationBox = ({
           <p>{hours1}</p>
           <p>{hours2}</p>
           <p>{hours3}</p>
-          <AniLink fade to={link}>
+          <a href={link}>
             <button className="menuButton">Order</button>
-          </AniLink>
+          </a>
         </div>
       </LocationWrapper>
     </Background>
