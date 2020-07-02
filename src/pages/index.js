@@ -46,7 +46,8 @@ const IndexPage = () => (
         address="1726 Kapiolani Blvd 102,
         Honolulu, HI 96814"
         phone="(808) 888-0288"
-        hours1="CLOSED"
+        hours1="Mon - Sat 11:00am - 9:00pm"
+        hours2="Sun 11:00am - 3:00pm"
         link="https://www.grindztogo.com/order/restaurant/domo-cafe-kapiolani-menu/14
         "
       />
