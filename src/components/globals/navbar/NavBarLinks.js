@@ -1,6 +1,5 @@
 import React, { Component } from "react"
 import styled from "styled-components"
-import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 class NavBarLinks extends Component {
   state = {
@@ -11,8 +10,15 @@ class NavBarLinks extends Component {
         text: "home",
       },
       {
+        id: 1,
+        path:
+          "https://www.grindztogo.com/order/restaurant/domo-cafe-downtown-menu/13",
+        text: "downtown",
+      },
+      {
         id: 2,
-        path: "/kapiolani",
+        path:
+          "https://www.grindztogo.com/order/restaurant/domo-cafe-kapiolani-menu/14",
         text: "kapiolani",
       },
       {
@@ -28,9 +34,9 @@ class NavBarLinks extends Component {
         {this.state.links.map(item => {
           return (
             <li key={item.id}>
-              <AniLink fade to={item.path} className="nav-link">
+              <a href={item.path} className="nav-link">
                 {item.text}
-              </AniLink>
+              </a>
             </li>
           )
         })}

@@ -47,7 +47,8 @@ const IndexPage = () => (
         Honolulu, HI 96814"
         phone="(808) 888-0288"
         hours1="CLOSED"
-        link="/kapiolani"
+        link="https://www.grindztogo.com/order/restaurant/domo-cafe-kapiolani-menu/14
+        "
       />
     </Section>
     <Section id="information" style={{ marginTop: "2rem" }}>
