@@ -5,6 +5,7 @@ import Background from "../components/Background"
 const LocationBox = ({
   name,
   address,
+  addressLink,
   phone,
   hours1,
   hours2,
@@ -16,7 +17,9 @@ const LocationBox = ({
       <LocationWrapper>
         <div>
           <h4>{name}</h4>
-          <p>{address}</p>
+          <p>
+            <a href={addressLink}>{address}</a>
+          </p>
           <p>{phone}</p>
           <p>{hours1}</p>
           <p>{hours2}</p>
@@ -43,6 +46,10 @@ const LocationWrapper = styled.div`
   p {
     font-size: 1rem;
     color: var(--darkGray);
+    a {
+      color: #000000;
+      font-weight: bold;
+    }
   }
   .menuButton {
     padding: 0.75rem 1rem;

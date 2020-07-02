@@ -35,17 +35,17 @@ const IndexPage = () => (
     <Section id="locations" style={{ marginTop: "2rem" }}>
       <LocationBox
         name="Downtown"
-        address="1016 Maunakea St,
-        Honolulu, HI 96817"
+        address="1016 Maunakea St"
+        addressLink="https://goo.gl/maps/Yx16WTRT3SPbyhqc6"
         phone="(808) 587-8338"
-        hours1="Mon - Sat 9:00am - 6:00pm"
+        hours1="Mon - Sat 10:00am - 6:00pm"
         hours2="Sun 10:00am - 3:00pm"
         link="https://www.grindztogo.com/order/restaurant/domo-cafe-downtown-menu/13"
       />
       <LocationBox
         name="Kapiolani"
-        address="1726 Kapiolani Blvd 102,
-        Honolulu, HI 96814"
+        address="1726 Kapiolani Blvd 102"
+        addressLink="https://goo.gl/maps/Yit6htXvb5G5uMWW6"
         phone="(808) 888-0288"
         hours1="Mon - Sat 11:00am - 9:00pm"
         hours2="Sun 11:00am - 3:00pm"
