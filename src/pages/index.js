@@ -7,6 +7,7 @@ import Section from "../components/globals/section/Section"
 import ContactForm from "../components/ContactForm"
 import LocationBox from "../components/LocationBox"
 import Intro from "../components/Intro"
+import Gallery from "../components/gallery"
 
 const IndexPage = () => (
   <Layout>
@@ -55,6 +56,9 @@ const IndexPage = () => (
     <Section id="information" style={{ marginTop: "2rem" }}>
       <Intro heading="how can we help?" />
       <ContactForm />
+    </Section>
+    <Section style={{ width: "100vw", marginTop: "2rem" }}>
+      <Gallery />
     </Section>
   </Layout>
 )
