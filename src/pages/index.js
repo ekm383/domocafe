@@ -40,7 +40,7 @@ const IndexPage = () => (
         phone="(808) 587-8338"
         hours1="Mon - Sat 10:00am - 6:00pm"
         hours2="Sun 10:00am - 3:00pm"
-        link="https://www.grindztogo.com/order/restaurant/domo-cafe-downtown-menu/13"
+        link="https://www.grindztogo.com/single.php/order/restaurant/domo-cafe-downtown/13?takeout=1"
       />
       <LocationBox
         name="Kapiolani"
@@ -49,8 +49,7 @@ const IndexPage = () => (
         phone="(808) 888-0288"
         hours1="Mon - Sat 11:00am - 9:00pm"
         hours2="Sun 11:00am - 3:00pm"
-        link="https://www.grindztogo.com/order/restaurant/domo-cafe-kapiolani-menu/14
-        "
+        link="https://www.grindztogo.com/single.php/order/restaurant/domo-cafe-kapiolani/14?takeout=1"
       />
     </Section>
     <Section id="information" style={{ marginTop: "2rem" }}>

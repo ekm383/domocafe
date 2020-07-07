@@ -12,13 +12,13 @@ class NavBarLinks extends Component {
       {
         id: 1,
         path:
-          "https://www.grindztogo.com/order/restaurant/domo-cafe-downtown-menu/13",
+          "https://www.grindztogo.com/single.php/order/restaurant/domo-cafe-downtown/13?takeout=1",
         text: "downtown",
       },
       {
         id: 2,
         path:
-          "https://www.grindztogo.com/order/restaurant/domo-cafe-kapiolani-menu/14",
+          "https://www.grindztogo.com/single.php/order/restaurant/domo-cafe-kapiolani/14?takeout=1",
         text: "kapiolani",
       },
       {
