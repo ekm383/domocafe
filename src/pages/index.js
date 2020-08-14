@@ -33,7 +33,7 @@ const IndexPage = () => (
       </Section>
     </HeaderIndex>
     <Section id="locations" style={{ marginTop: "2rem" }}>
-      <LocationBox
+      {/* <LocationBox
         name="Downtown"
         address="1016 Maunakea St"
         addressLink="https://goo.gl/maps/Yx16WTRT3SPbyhqc6"
@@ -50,7 +50,7 @@ const IndexPage = () => (
         hours1="Mon - Sat 11:00am - 9:00pm"
         hours2="Sun 11:00am - 3:00pm"
         link="https://www.grindztogo.com/single.php/order/restaurant/domo-cafe-kapiolani/14?takeout=1"
-      />
+      /> */}
     </Section>
     <Section id="information" style={{ marginTop: "2rem" }}>
       <Intro heading="how can we help?" />
